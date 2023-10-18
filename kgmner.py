@@ -1,10 +1,9 @@
 # -*- encoding: utf-8 -*-
 '''
-@File     : ddp_mner.py
+@File     : kgmner.py
 @DateTime : 2023/6/9 00:15:41
 @Author   : zzk
-@Desc     : reset twitter2015 model
-模型没有KG部分的实验，F1的结果是73.62    73.54    73.7        84.74    81.27    60.81   39.27
+@Desc     : 
 '''
 import torch.optim as optim
 from torch.utils.data import DataLoader
