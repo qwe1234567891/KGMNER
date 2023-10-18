@@ -1,15 +1,12 @@
 # -*- coding:utf-8 -*-
-# @Time    :2023/10/9 17:14
+# @Time    :2023/9/9 17:14
 # @Author  :ZZK
-# @ File   :10-9.py
+# @ File   :
 # Description:
 import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
 from langdetect import detect
-# 输入名词实体
-# entity = "china"  # 替换为您要查询的名词实体
 def sparqlw(entity):
-    # 1. 查询Wikidata以获取实体的QID（唯一标识符）
     wikidata_endpoint = "https://www.wikidata.org/w/api.php"
     params = {
         "action": "wbsearchentities",
@@ -23,8 +20,6 @@ def sparqlw(entity):
         qid = data["search"][0]["id"]  # 获取QID
     except:
         return ""
-
-    # 2. 使用QID执行SPARQL查询以获取与实体相关的三元组
     sparql_endpoint = "https://query.wikidata.org/sparql"
     query = f"""
     SELECT ?property ?propertyLabel ?entity2 ?entity2Label
@@ -42,13 +37,11 @@ def sparqlw(entity):
     except:
         return ""
 
-    # 3. 解析和显示查询结果，包括关系URL的自然语言描述
-    # 保留补充的10条信息吧。
     n = 0
     entity_k = []
     for result in results["results"]["bindings"]:
-        property_uri = result["property"]["value"]  # 获取关系URL
-        property_label = result["propertyLabel"]["value"]  # 获取关系的自然语言描述
+        property_uri = result["property"]["value"]  
+        property_label = result["propertyLabel"]["value"] 
         entity2_label = result["entity2Label"]["value"]
         try:
             detected_l = detect(entity2_label)
