@@ -20,3 +20,8 @@ utils.py： 子模型
   - [Twitter](https://github.com/jefferyYu/UMT/)
 #### 领域数据：
   - 由于相关研究还在进行，暂不方便公开
+#### 计算机学科图谱示例
+来自文章[2022](http://www.c-s-a.org.cn/csa/article/pdf/8798)
+
+![image](https://github.com/qwe1234567891/KGMNER/assets/76864588/090b029b-cd58-463b-aeed-c96764b43f2f)
+
