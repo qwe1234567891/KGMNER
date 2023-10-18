@@ -31,3 +31,4 @@ utils.py： 子模型
 ![image](https://github.com/qwe1234567891/KGMNER/assets/76864588/090b029b-cd58-463b-aeed-c96764b43f2f)
 
 ![image](https://github.com/qwe1234567891/KGMNER/assets/76864588/744dee5c-1323-4aa6-834c-f78d43d17a18)
+![image](https://github.com/qwe1234567891/KGMNER/assets/76864588/495d23a1-d647-4261-938b-2cddaf6d12fa)
