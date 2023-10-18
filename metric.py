@@ -163,27 +163,6 @@ def evaluate_pred_file(filepath):  # evaluate predict
 
 
 if __name__ == '__main__':
-    # tags = {'0':0,
-    # 'B-PER':1, 'I-PER':2,
-    # 'B-LOC':3, 'I-LOC':4,
-    # 'B-ORG':5, 'I-ORG':6,
-    # 'B-OTHER':7, 'I-OTHER':8,
-    # 'O':9}
-    # labels_pred=[
-    # 						[9,9,9,1,3,1,2,2,0,0],
-    # 						[9,9,9,1,3,1,2,0,0,0]
-    # ]
-    # labels = [
-    # 				[9,9,9,9,3,1,2,2,0,0],
-    # 				[9,9,9,9,3,1,2,2,0,0]
-    # 				]
-
-    # class_type = 'PER'
-    # acc, f1,p,r = evaluate(labels_pred, labels, tags)
-    # print(p,r,f1)
-    # f1,p,r = evaluate_each_class(labels_pred, labels, tags, class_type)
-    # print(p,r,f1)
-
     datadir = "./output/twitter2015"
     epoch = 29
 
