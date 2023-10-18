@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @Time    :2023/6/10 10:25
 # @Author  :ZZK
-# @ File   :my_model.py
+# @ File   :my_dataset.py
 # Description:
 from torch.utils.data import Dataset
 from transformers import BertTokenizer
