@@ -19,6 +19,7 @@ utils.py： 子模型
 #### Twitter数据：
   - [Twitter](https://github.com/jefferyYu/UMT/)
 
+*_k.txt就是我们为句子从Wikipedia自动获取的补充语义
 ![image](https://github.com/qwe1234567891/KGMNER/assets/76864588/d3911ac8-e0a9-40f5-a575-51c5f5c17583)
 ![image](https://github.com/qwe1234567891/KGMNER/assets/76864588/1c7597ed-ff1d-414c-a1f6-6c3220538622)
 
