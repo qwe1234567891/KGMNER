@@ -1,5 +1,5 @@
 max_len = 128
-max_node = 4
+max_node = 1
 log_fre = 10
 tag2idx = {
     "PAD": 0,
